@@ -1,0 +1,7 @@
+.Build/
+.idea/
+composer.lock
+
+# ignore generated files
+Resources/Public/Css/main.css
+Resources/Public/JavaScript/main.js

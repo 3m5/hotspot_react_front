@@ -1,0 +1,11 @@
+.vscode
+!.vscode/settings.json
+.idea
+!.idea/watcherTasks.xml
+
+.cache/
+node_modules/
+dist
+
+target
+!/src/assets/bg.jpg
