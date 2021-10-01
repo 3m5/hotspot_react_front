@@ -1,17 +1,22 @@
 {
-	"name": "3m5/hotspot-react",
+	"name": "3m5/hotspot-react-front",
 	"type": "typo3-cms-extension",
 	"description": "This extension provides the hotspot content element",
 	"authors": [
 		{
-			"name": "Johannes Seipelt",
+			"name": "Adam Koppe",
+			"role": "Developer"
+		},
+		{
+			"name": "Michael Kersten",
 			"role": "Developer"
 		}
 	],
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"typo3/cms-fluid-styled-content": "^10.4",
-		"typo3/cms-core": "^10.4"
+		"typo3/cms-core": "^10.4",
+		"3m5/hotspot-wizard": "@dev"
 	},
 	"require-dev": {
 		"typo3/testing-framework": "^6.8"
@@ -41,9 +46,8 @@
 			"rm .gitignore",
 			"rm .gitattributes",
 			"rm -rf .github",
-			"rm -rf Tests",
-			"rm .editorconfig",
-			"rm ExtensionBuilder.json"
+			"rm -rf .Build",
+			"rm .editorconfig"
 		]
 	},
 	"extra": {
@@ -52,6 +56,5 @@
 			"web-dir": ".Build/public",
 			"extension-key": "hotspot_react"
 		}
-	},
-	"minimum-stability": "dev"
+	}
 }
