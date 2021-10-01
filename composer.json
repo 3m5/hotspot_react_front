@@ -46,7 +46,6 @@
 			"rm .gitignore",
 			"rm .gitattributes",
 			"rm -rf .github",
-			"rm -rf .Build",
 			"rm .editorconfig"
 		]
 	},
